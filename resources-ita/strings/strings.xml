@@ -2,4 +2,5 @@
     <string id="AppName">PoleSteps</string>
     <string id="units"> </string>
     <string id="label">Passi</string>
+    <string id="multiplier_title">Moltiplicatore</string>
 </strings>

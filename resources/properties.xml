@@ -5,7 +5,7 @@
     
     <settings>
     	<setting propertyKey="@Properties.multiplier_prop" title="@Strings.multiplier_title">
-    		<settingConfig type="numeric" required="true" min="0" max="100" errorMessage="@Strings.multiplier_error" />
+    		<settingConfig type="numeric" required="true" />
     	</setting>
     </settings>
 </resources>

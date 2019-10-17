@@ -12,7 +12,7 @@ class PoleStepsView extends Ui.SimpleDataField
         
         // load the multiplier constant from app properties and set label
         var multiplier = app.getProperty("multiplier_prop");
-        label = Ui.loadResource( Rez.Strings.label ) + ((multiplier != null) ? " (x" + multiplier.format("%.1f") + ")" : "");
+        label = Ui.loadResource( Rez.Strings.label ) + ((multiplier != null) ? " x" + multiplier.format("%.2f") : "");
     }
 
 	function onStart(app, state) {

@@ -2,4 +2,5 @@
     <string id="AppName">PoleSteps</string>
     <string id="units"> </string>
     <string id="label">脚步</string>
+    <string id="multiplier_title">乘数</string>
 </strings>
