@@ -23,5 +23,20 @@ class PoleStepsApp extends App.AppBase {
     function getInitialView() {
         return [ _PoleStepsView ];
     }
+    
+    // Read in the MULTIPLIER constant from user settings
+    function getMultiplier() {
+	    var value = getProperty("multiplier_prop");
+	    if (value == null || !(value instanceof Float)) {
+	        if (value != null) {
+	            value = value.toString();
+	            value = stringReplace(value, ",", ".");
+            	value = value.toFloat();
+	        } else {
+	            value = 1.0;
+	        }
+	    }
+	    return value;
+    }
 
 }

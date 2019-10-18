@@ -11,7 +11,7 @@ class PoleStepsView extends Ui.SimpleDataField
         fitContributor = new FitContributor(self);
         
         // load the multiplier constant from app properties and set label
-        var multiplier = app.getProperty("multiplier_prop");
+        var multiplier = app.getMultiplier();
         label = Ui.loadResource( Rez.Strings.label ) + ((multiplier != null) ? " x" + multiplier.format("%.2f") : "");
     }
 

@@ -8,8 +8,6 @@ This datafield is an extension of the "Steps to FIT" datafield. The only differe
 
 It can be useful if you use trekking poles and would like to correct the measured step count.
 
-If you would like to set up a fraction, I recommend using the Garmin Connect phone application instead of the Connect IQ app, because the latter does not allow the user to give in the separator dot or comma.
-
 Description of the original "Steps to FIT" datafield:
 This datafield shows the number of steps taken during an activity. It only records steps when the timer is running. At the end of the session the step data are written into the FIT file for the entire session (total number of steps) and also for the individual laps (number of steps per each lap) so that you can check it in the activity summary on the Garmin Connect website or in the Garmin Connect application.
 

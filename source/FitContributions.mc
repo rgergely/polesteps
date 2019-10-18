@@ -56,7 +56,7 @@ class FitContributor
         }
         
         // load the multiplier constant from app properties
-        var multiplier = app.getProperty("multiplier_prop");
+        var multiplier = app.getMultiplier();
         if (multiplier != null) {
         	mMultiplier = multiplier;
         }
