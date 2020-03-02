@@ -16,4 +16,9 @@ For some devices (e.g., Fenix 3 and Fenix 3 HR) the steps data may not appear on
 The original datafield without the multiplier can be downloaded from this location: [Steps to FIT](https://apps.garmin.com/hu-HU/apps/eb7018d6-3a13-4530-92ec-ed51d1f56e07#0)
 
 ### What’s New
+
+v1.2.1 Support new devices. (Legacy Hero Series, Approach S62)
+
+v1.2.0 Fixed issue with setting up fractions.
+
 v1.1.0 Added translations.
