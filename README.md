@@ -17,6 +17,10 @@ The original datafield without the multiplier can be downloaded from this locati
 
 ### What’s New
 
+v1.2.3 Support new devices. (Descent Mk2 S, Enduro, Forerunner 55, Forerunner 945 LTE, Venu 2, Venu 2S)
+
+v1.2.2 Support new devices. (Venu SQ, Forerunner 745, Descent Mk2, MARQ Golfer, D2 Air, Venu Mercedes-Benz Collection)
+
 v1.2.1 Support new devices. (Legacy Hero Series, Approach S62)
 
 v1.2.0 Fixed issue with setting up fractions.
