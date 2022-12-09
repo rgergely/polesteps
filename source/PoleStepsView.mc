@@ -2,8 +2,8 @@ using Toybox.WatchUi as Ui;
 
 class PoleStepsView extends Ui.SimpleDataField 
 {
-	// member variables
-	hidden var fitContributor = null;
+    // member variables
+    hidden var fitContributor = null;
 
     // Set the label of the data field here.
     function initialize(app) {
@@ -15,7 +15,7 @@ class PoleStepsView extends Ui.SimpleDataField
         label = Ui.loadResource( Rez.Strings.label ) + ((multiplier != null) ? " x" + multiplier.format("%.2f") : "");
     }
 
-	function onStart(app, state) {
+    function onStart(app, state) {
         fitContributor.onStart(app);
     }
 
@@ -29,30 +29,30 @@ class PoleStepsView extends Ui.SimpleDataField
     }
     
     function onTimerStart() {
-    	fitContributor.onActivityStart();
+        fitContributor.onActivityStart();
     }
     
     function onTimerStop() {
-    	fitContributor.onActivityStop();
+        fitContributor.onActivityStop();
     }
     
     function onTimerResume() {
-    	fitContributor.onActivityStart();
+        fitContributor.onActivityStart();
     }
     
     function onTimerPause() {
-    	fitContributor.onActivityStop();
+        fitContributor.onActivityStop();
     }
     
     function onTimerLap() {
-    	fitContributor.onTimerLap();
+        fitContributor.onTimerLap();
     }
-	
-	function onTimerReset() {
-    	fitContributor.onTimerReset();
+    
+    function onTimerReset() {
+        fitContributor.onTimerReset();
     }
     
     function onNextMultisportLeg() {
-    	fitContributor.onTimerReset();
+        fitContributor.onTimerReset();
     }
 }
