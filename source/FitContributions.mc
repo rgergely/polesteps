@@ -69,8 +69,13 @@ class FitContributor
 
     function onStop(app) {
         // store current values of steps on stop for later usage (e.g., resume later)
-        app.setProperty(STEPS_SESSION_FIELD_ID, mStepsSession);
-        app.setProperty(STEPS_LAP_FIELD_ID, mStepsLap);
+        if (Application has :Properties) {
+            Application.Properties.setValue(STEPS_SESSION_FIELD_ID, mStepsSession);
+            Application.Properties.setValue(STEPS_LAP_FIELD_ID, mStepsLap);
+        } else {
+            app.setProperty(STEPS_SESSION_FIELD_ID, mStepsSession);
+            app.setProperty(STEPS_LAP_FIELD_ID, mStepsLap);
+        }
     }
     
     function compute() {

@@ -17,7 +17,7 @@ The original datafield without the multiplier can be downloaded from this locati
 
 ### What’s New
 
-v1.2.4 Support new devices. (D2 series, Descent series, Enduro, epix (Gen 2), Fenix 7 series, Forerunner 255 series, Forerunner 55, Forerunner 945 LTE, Forerunner 955 series, Instinct 2 series, Instinct Crossover, MARQ 2 series, Venu 2 series, Venu Sq 2 series)
+v1.2.5 Support new devices. (D2 series, Descent series, Enduro, epix (Gen 2), Fenix 7 series, Forerunner 255 series, Forerunner 55, Forerunner 945 LTE, Forerunner 955 series, Instinct 2 series, Instinct Crossover, MARQ 2 series, Venu 2 series, Venu Sq 2 series)
 
 v1.2.3 Support new devices. (Descent Mk2 S, Enduro, Forerunner 55, Forerunner 945 LTE, Venu 2, Venu 2S)
 
