@@ -3,6 +3,10 @@ using Toybox.FitContributor as Fit;
 using Toybox.ActivityMonitor;
 using Toybox.Activity;
 
+// constants
+const STEPS_SESSION_FIELD_ID = 0;
+const STEPS_LAP_FIELD_ID = 1;
+
 class FitContributor
 {
     // member variables
