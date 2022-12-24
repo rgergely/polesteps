@@ -1,5 +1,7 @@
 <resources>
 	<properties>
+        <property id="steps_session" type="number">0</property>
+        <property id="steps_lap" type="number">0</property>
     	<property id="multiplier_prop" type="string">1.0</property>
     </properties>
     

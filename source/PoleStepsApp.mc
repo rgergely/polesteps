@@ -26,12 +26,7 @@ class PoleStepsApp extends App.AppBase {
     
     // Read in the MULTIPLIER constant from user settings
     function getMultiplier() {
-        var value = null;
-        if (Application has :Properties) {
-            value = Application.Properties.getValue("multiplier_prop");
-        } else {
-            value = getProperty("multiplier_prop");
-        }
+        var value = $.loadProperty("multiplier_prop");
         if (value == null || !(value instanceof Float)) {
             if (value != null) {
                 value = value.toString();
