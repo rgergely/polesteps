@@ -17,6 +17,8 @@ The original datafield without the multiplier can be downloaded from this locati
 
 ### What’s New
 
+v1.3.3 Support new devices. (Venu 3 series, Vivoactive 5, Approach S70 series, Epix 2 Pro series, Fenix 7 Pro series, Forerunner 265 series, Forerunner 965, Instinct 2X)
+
 v1.3.0 Bug fix (cannot save state on activity stop and resume later). Make title upper case. 
 
 v1.2.5 Support new devices. (D2 series, Descent series, Enduro, epix (Gen 2), Fenix 7 series, Forerunner 255 series, Forerunner 55, Forerunner 945 LTE, Forerunner 955 series, Instinct 2 series, Instinct Crossover, MARQ 2 series, Venu 2 series, Venu Sq 2 series)
